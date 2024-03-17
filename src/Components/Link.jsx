@@ -14,7 +14,7 @@ function Link({ data }) {
   };
 
   return (
-    <div className="container mx-auto p-4 border border-gray-300 rounded-md shadow-md ">
+    <div className="container mx-auto p-4 border border-gray-300  shadow-md ">
       <div className="flex justify-between space-x-4">
         <div>
             <a
@@ -25,7 +25,7 @@ function Link({ data }) {
             >
             {data.title}
             </a>
-            <span className="text-sm bg-gray-200 rounded-xl px-2 py-1">{data.src}</span>
+            <span className={copied ? `text-sm bg--300 bg-gray-200 text-blue-800 rounded-xl px-2 py-1` : `text-sm bg-gray-200 rounded-xl px-2 py-1`}>{data.src}</span>
         </div>
         
 
