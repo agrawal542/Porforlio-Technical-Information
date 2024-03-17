@@ -1,0 +1,36 @@
+.copy-url-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  a {
+    margin-right: 10px; /* Adjust spacing between link and button */
+  }
+  
+  .copy-button {
+    background-color: #ff6347; /* Coral color */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .copy-button:hover {
+    background-color: #d84315; /* Darker shade on hover */
+  }
+  
+  .notification {
+    background-color: #4caf50; /* Green color */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px; /* Adjust spacing between button and notification */
+    animation: fadeOut 2s ease-in-out; /* Apply fade-out animation */
+  }
+  
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
